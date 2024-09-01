@@ -1,5 +1,4 @@
 
-
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
@@ -10,17 +9,15 @@ import tensorflow as tf
 
 app = FastAPI()
 
-# origins = [
-#     "http://localhost",
-#     "http://localhost:3000",
-# ]
-# app.add_middleware(
-#     CORSMiddleware,
-#     allow_origins=origins,
-#     allow_credentials=True,
-#     allow_methods=["*"],
-#     allow_headers=["*"],
-# )
+# CORS configuration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins or specify your React Native app URL
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 MODEL = tf.keras.models.load_model("../models/1.keras")
 
