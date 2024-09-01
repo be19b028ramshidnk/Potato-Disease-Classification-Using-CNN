@@ -111,6 +111,16 @@ https://github.com/be19b028ramshidnk/Potato-Disease-Classification-Using-CNN.git
 Uvicorn running on http://0.0.0.0:8000
 ```
 **Start React App**
+go to the folder
+```bash
+cd MyApp
+```
+install requirements
+
+```bash
+npm install axios expo-image-picker
+```
+run
 ```bash
 npx expo start
 ```
