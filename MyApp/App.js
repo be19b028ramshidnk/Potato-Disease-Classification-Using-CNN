@@ -78,12 +78,13 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#161622',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
   },
   title: {
+    color:'#FF9C01',
     fontSize: 24,
     marginBottom: 20,
   },
@@ -101,6 +102,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   predictionText: {
+    color:'#FF9C01',
     fontSize: 18,
     marginVertical: 5,
   },
