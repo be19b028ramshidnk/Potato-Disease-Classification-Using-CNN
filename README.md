@@ -97,6 +97,10 @@ Bias Correction: It includes mechanisms to correct biases in the estimates of th
 
 ![alt text](image-2.png)
 
+## Sample results from React App
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 ## How to run the code
 
