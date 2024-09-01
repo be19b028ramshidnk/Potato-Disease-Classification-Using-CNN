@@ -96,3 +96,21 @@ Bias Correction: It includes mechanisms to correct biases in the estimates of th
 ![alt text](image-1.png)
 
 ![alt text](image-2.png)
+
+
+## How to run the code
+
+**Clone the git rep**
+```bash
+#!/bin/bash
+https://github.com/be19b028ramshidnk/Potato-Disease-Classification-Using-CNN.git
+
+```
+**Start the api first**
+```bash
+Uvicorn running on http://0.0.0.0:8000
+```
+**Start React App**
+```bash
+npx expo start
+```
